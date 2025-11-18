@@ -1,0 +1,14 @@
+{
+  "Student": {
+    "id": "int",
+    "fullName": "string",
+    "age": "int",
+    "semester": "int",
+    "status": "enum [ACTIVE, INACTIVE, DELETED]",
+    "degree": {
+      "idDegree": "int",
+      "name": "string",
+      "faculty": "string"
+    }
+  }
+}
